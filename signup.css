@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Open+Sans&family=Poppins:wght@300;400&display=swap");
+
+body {
+  background: #1d1d1d;
+  font-family: "Poppins", sans-serif;
+}
+.signup-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 560px;
+  width: 80%;
+  margin-top: 2.5rem;
+}
+.signup-area {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-area .img {
+  height: 100%;
+  width: 50%;
+}
+.signup-area .img img {
+  height: 100%;
+  width: 100%;
+}
+.signup-area form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  width: 50%;
+  height: 100%;
+}
+.signup-area form input {
+  width: 80%;
+  padding: 15px 10px;
+  box-shadow: 0px 4px 10px #00000026;
+  border: none;
+  outline: none;
+
+  margin: 10px 0;
+}
+.signup-area form h2 {
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+.signup-area form input {
+  color: #2c2c2c;
+}
+.signup-area form input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+.signup-area form button {
+  background: transparent;
+  border: 2px solid #2c2c2c;
+  color: #2c2c2c;
+  padding: 5px 10px;
+  width: 130px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+}
