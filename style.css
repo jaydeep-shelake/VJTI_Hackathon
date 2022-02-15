@@ -365,11 +365,22 @@ html {
 
 .navbar .logo {
   font-size: 30px;
+  display: flex;
+
   flex: 1;
   color: var(--black);
 }
-
-.navbar-right a:hover {
+.navbar .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.navbar .logo p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.navbar .logo .navbar-right a:hover {
   color: var(--black);
   border-bottom: 2px solid var(--black);
 }
