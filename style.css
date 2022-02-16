@@ -328,7 +328,7 @@ html {
 .close {
   position: absolute;
   top: 15px;
-  right: 35px;
+  left: 35px;
   color: var(--white);
   font-size: 40px;
   font-weight: 900;
@@ -599,7 +599,7 @@ html {
     color: #000;
   }
   .des i,
-  .close i {
+  .close-1 i {
     font-size: 22px;
     color: black;
   }
