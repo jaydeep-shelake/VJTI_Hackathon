@@ -14,7 +14,7 @@ let desWatch = document.getElementById('des-watch')
 
 let productInfo = document.querySelectorAll('.product-info')
 
-let close = document.querySelectorAll('.close')
+let close = document.querySelectorAll('.close-1')
 close.forEach((closeIcon)=>{
 	closeIcon.addEventListener('click',()=>{
 		productInfo?.forEach((product)=>{
