@@ -8,6 +8,44 @@ let slideControl = document.getElementById('slide-control')
 
 let slideControlItems = slideControl.getElementsByClassName('slide-control-item')
 
+let des = document.getElementById('des')
+
+let desWatch = document.getElementById('des-watch')
+
+let productInfo = document.querySelectorAll('.product-info')
+
+let close = document.querySelectorAll('.close')
+close.forEach((closeIcon)=>{
+	closeIcon.addEventListener('click',()=>{
+		productInfo?.forEach((product)=>{
+			product.style.left='-100%'
+product.style.transition="all 0.3 ease-in-out"
+
+			  })
+		
+	})
+})
+des.addEventListener('click',(e)=>{
+	productInfo?.forEach((product)=>{
+  product.style.left='50%'
+product.style.zIndex="999"
+product.style.transition="all 0.3 ease-in-out"
+	})
+
+
+})
+desWatch.addEventListener('click',(e)=>{
+	productInfo?.forEach((product)=>{
+  product.style.left='50%'
+product.style.zIndex="999"
+product.style.transition="all 0.3 ease-in-out"
+	})
+
+
+})
+
+
+
 
 slider.style.marginTop = '-' + slideIndex + '00vh'
 
