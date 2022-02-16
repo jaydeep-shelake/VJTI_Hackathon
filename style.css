@@ -561,6 +561,14 @@ html {
   .navbar {
     padding: 10px 20px;
   }
+  .navbar .logo {
+    flex: 0;
+  }
+  .navbar .logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0px;
+  }
 }
 @media (max-width: 520px) {
   .des {
