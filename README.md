@@ -23,7 +23,7 @@
 - VS code
 - GitHub
 
-## Video Link:
+## Video Link: https://drive.google.com/file/d/1Xxnmqy2uQubZMZS2D-EXfpGzqfreYCIr/view?usp=sharing
 
 ## 📸 Screenshots
 
